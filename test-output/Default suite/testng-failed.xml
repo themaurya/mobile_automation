@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileautomation.Appium.GestureDrag">
+      <class name="mobileautomation.Appium.eCommerce_tc_1">
         <methods>
           <include name="tearDown"/>
-          <include name="gestureDrag"/>
+          <include name="fillForm"/>
           <include name="configureAppium"/>
         </methods>
-      </class> <!-- mobileautomation.Appium.GestureDrag -->
+      </class> <!-- mobileautomation.Appium.eCommerce_tc_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
